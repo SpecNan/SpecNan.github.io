@@ -60,8 +60,10 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
-include: ['_pages']
-permalink: /:category/:title/
+
+
+
+permalink: /:title/
 
 compress_html:
   clippings: all
@@ -69,3 +71,4 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
